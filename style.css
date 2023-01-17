@@ -116,6 +116,7 @@ body{
     max-width: 734px;
     text-align: center;
     text-transform: uppercase;
-    margin: 0 auto 17px;
+    margin: 0 auto;
+    margin-top: 17px;
     
 }
