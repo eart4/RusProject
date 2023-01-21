@@ -347,6 +347,7 @@ line-height: 22px;
     letter-spacing: 0.05em;
     padding: 14px 30px;
     margin-top: 27px;
+    cursor: pointer;
 }
 .request__icon {
     
