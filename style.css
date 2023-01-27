@@ -469,6 +469,45 @@ line-height: 22px;
     }
 }
 
+.questions {
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.questions .section__h2{
+    margin-bottom: 50px;
+
+}
+.container {
+}
+.text-h2 {
+}
+.section__h2 {
+}
+
+
+.text-h3 {
+}
+.question__h3 {
+    text-transform: uppercase;
+    color: var(--accent-color);
+    margin-bottom: 30px;
+}
+
+
+.question__p {
+    margin-bottom: 40px;
+    color: var(--grey-color);
+    min-width: 730px;
+}
+
+
+.question__h3.open::before{
+    content: '';
+    
+}
+
+
 
 
 
