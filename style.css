@@ -543,6 +543,11 @@ line-height: 22px;
 }
 
 
+@media screen and (max-width: 1280px){
+    .question{
+        padding: 110px 15px 110px;
+    }
+}
 
 
 
