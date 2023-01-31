@@ -552,13 +552,13 @@ line-height: 22px;
 
 .partners {
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
     background-color: var(--dark-color);
 }
 .partners__h2 {
     color: var(--white-color);
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 .partners__flex {
     display: flex;
@@ -569,6 +569,10 @@ line-height: 22px;
     margin-right: 40px;
     margin-bottom: 20px;
     max-width: 170px;
+}
+
+.partners__item:nth-child(5n){
+    margin-right: 0;
 }
 
 
