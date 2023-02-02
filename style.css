@@ -593,4 +593,37 @@ line-height: 22px;
     }
 }
 
+.reviews {
+    padding: 150px 0;
+}
+
+.reviews__h2 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.reviews__grid {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.reviews__card {
+    background-color: #f7f7f7;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.reviews__quotes {
+    color: #F7654A;
+    line-height: 1;
+    font-size: 96px;
+    line-height: 1;
+    margin-bottom: -40px;
+}
+.text-p-reviews {
+}
+.text-h4 {
+}
+.reviews__author-accent {
+}
+
 
