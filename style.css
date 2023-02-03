@@ -638,7 +638,7 @@ line-height: 22px;
 
 @media screen and (max-width: 1280px){
     .reviews {
-        padding: 100px 15 142px;
+        padding: 100px 15px 142px;
         
     }
     
@@ -646,6 +646,7 @@ line-height: 22px;
     .reviews__grid {
 
         grid-template-columns: repeat(2,1fr);
+        justify-items: center;
         
     }
     
@@ -701,5 +702,23 @@ text-align: center;
 .contacts__h3-accent {
     color: var(--accent-color);
 }
+
+
+@media screen and (max-width: 1280px){
+    .contacts__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .contact__item {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .contacts__grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+
 
 
