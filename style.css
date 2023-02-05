@@ -69,7 +69,7 @@ img{
     min-height: 740px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(./images/header.jpg);
+    background-image: url(./images/header.jpg) !important;
 }
 
 .header__title {
